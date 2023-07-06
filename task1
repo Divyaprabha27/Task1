@@ -1,0 +1,38 @@
+1.Write a blog on Difference between HTTP1.1 vs HTTP2
+-----------------------------------------------------
+
+HTTP1 which was created in 1997 & the new one is HTTP 2 which was created in 2015. HTTP1 loads resources one after the other, so if one resource cannot be loaded, it blocks all the other resources behind it. HTTP2 is able to use a single TCP connection to send multiple streams of data at once so that no one resource blocks any other resource.
+   
+HTTP1 works on the textual format and HTTP2 works on the binary protocol.
+
+HTTP1 uses requests resource Inlining for use getting multiple pages and HTTP2 uses PUSH frame by server that collects all multiple pages.
+
+HTTP1 compresses data by itself and HTTP2 uses HPACK for data compression.
+___________________________________________________________________________________________________________________________________
+
+2.Write a blog about objects and its internal representation in Javascript
+--------------------------------------------------------------------------
+
+Objects are important data types in javascript. Objects are different than primitive datatypes (i.e. number, string, boolean, etc.).
+Object is like a container that holds different properties. It stores their element as a key value pairs,each key value pair is termed as a property.It represents - {}
+
+Every object has some property associated with some value. These values can be accessed using these properties associated with them. For Eg. If your object is a student, it will have properties like name, age, address, id, etc and methods like updateAddress, updateNam, etc.
+
+Objects are more complex and each object may contain any combination of these primitive data-types as well as reference data-types.
+_____________________________________________________________________________________________________________________________________
+
+4.Read about IP address, port, HTTP methods, MAC address
+--------------------------------------------------------
+
+The IP address of a device mainly helps in identifying the connection of a network (using which the device is connecting to the network). 
+
+The MAC Address, on the other hand, ensures the computer device's physical location. It helps us to identify a given device on the available network uniquely.
+
+HTTP methods are 
+ *GET  - Read the data
+ *POST - Insert/Create
+ *PUT  - Update
+ *DELETE - Delete the data
+
+Port addressing refers to using the port numbers assigned to every process to exchange data between them. Now, for processes that send and receive data over the internet
+	
